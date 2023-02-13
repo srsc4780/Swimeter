@@ -1,0 +1,27 @@
+footer#footer {
+    width: 100%;
+    background: lighten(#1d1e2c, 5%);
+    padding: 30px 40px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p.copyright {
+        color: #d7cdcc;
+        font-weight: 300;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+        line-height: 1.7;
+        margin: 0;
+
+        > span {
+            color: #ff5a5f;
+        }
+
+        > a {
+            color: #d7cdcc !important;
+        }
+    }
+}

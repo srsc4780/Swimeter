@@ -1,0 +1,15 @@
+body.auth.login.page {
+    section#main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .login.form {
+            width: 90%;
+            max-width: 350px;
+            padding: 30px;
+            background: $content-bg;
+            border-radius: 4px;
+        }
+    }
+}

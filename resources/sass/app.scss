@@ -1,0 +1,50 @@
+
+@import 'variables';
+
+@import 'bootstap';
+
+html {
+    body {
+        min-height: 100vh;
+        background: $body-bg;
+
+        @import "partials/header";
+        @import "partials/footer";
+        @import "partials/item_list";
+
+        section#main {
+            min-height: calc(100vh - 105px);
+            display: flex;
+            align-items: stretch;
+        }
+
+        header#header + section#main {
+            min-height: calc(100vh - 205px);
+        }
+
+        .main.ui.container {
+            background: $content-bg;
+            padding: 30px 15px;
+        }
+
+        div.content.with.background {
+            background: $content-bg;
+            padding: 30px 15px;
+            border-radius: 3px;
+
+            &:not(:first-child) {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    @import "pages/auth/login";
+}
+
+html#public {
+    @import "pages/public/dashboard";
+}
+
+html#admin {
+    @import "pages/admin/dashboard";
+}
