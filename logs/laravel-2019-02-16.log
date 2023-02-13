@@ -1,0 +1,9 @@
+[2019-02-16 02:50:26] production.ERROR: Command "dump-server" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"dump-server\" is not defined. at C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('dump-server')
+#1 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

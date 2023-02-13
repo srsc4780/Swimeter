@@ -1,0 +1,19 @@
+[2019-04-07 17:09:03] local.ERROR: Command "tcp:server" is not defined.
+
+Did you mean one of these?
+    make:observer
+    make:seeder
+    tcp:serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"tcp:server\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    make:seeder
+    tcp:serve at C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\symfony\\console\\Application.php:639)
+[stacktrace]
+#0 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\symfony\\console\\Application.php(233): Symfony\\Component\\Console\\Application->find('tcp:server')
+#1 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\Acer\\Documents\\GitHub\\swimeter\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
