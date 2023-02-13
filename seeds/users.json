@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Shahrukh Sattar Chowdhury",
+        "email": "srsc4780@gmail.com",
+        "phone": "01759006190",
+        "password": "xef1F9FNqwersb",
+        "is_admin": true
+    },
+    {
+        "name": "Sharukh Sattar Chudury",
+        "email": "srsc4780+sattar@gmail.com",
+        "phone": "01734721318",
+        "password": "xef1F9FNqwersb",
+        "is_admin": false
+    },
+    {
+        "name": "Saif Mahmud",
+        "email": "sikhlana@gmail.com",
+        "phone": "01757111189",
+        "password": "BhvK95Nl4x4z1",
+        "is_admin": true
+    },
+    {
+        "name": "Waliur Rawnak Rahman",
+        "email": "nomoregloryhole@gmail.com",
+        "phone": "01757111181",
+        "password": "JBQVfjLNcibjx",
+        "is_admin": false
+    }
+]
